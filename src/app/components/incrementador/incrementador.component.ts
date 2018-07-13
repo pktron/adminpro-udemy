@@ -37,7 +37,7 @@ export class IncrementadorComponent implements OnInit {
     this.cambioValor.emit( this.progreso );
   }
 
-  onChanges( newValue: number ){
+  onChanges( newValue: number ) {
     this.progreso = newValue;
     if (newValue >= 100) {
       this.progreso = 100;
@@ -48,8 +48,6 @@ export class IncrementadorComponent implements OnInit {
 
     this.txtProgress.nativeElement.value = this.progreso;
     this.cambioValor.emit(this.progreso);
-
-
   }
 
 }
