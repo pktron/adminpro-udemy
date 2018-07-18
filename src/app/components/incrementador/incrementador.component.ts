@@ -15,13 +15,11 @@ export class IncrementadorComponent implements OnInit {
   @Output('actualizaValor') cambioValor: EventEmitter<number> = new EventEmitter();
 
   constructor() {
-    console.log('Leyenda con', this.leyenda);
-    console.log('Progreso con', this.progreso);
+
    }
 
   ngOnInit() {
-    console.log('Leyenda', this.leyenda);
-    console.log('Progreso', this.progreso);
+;
   }
 
   cambiarValor(valor: number) {
