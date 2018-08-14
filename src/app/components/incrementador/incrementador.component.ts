@@ -19,7 +19,7 @@ export class IncrementadorComponent implements OnInit {
    }
 
   ngOnInit() {
-;
+
   }
 
   cambiarValor(valor: number) {

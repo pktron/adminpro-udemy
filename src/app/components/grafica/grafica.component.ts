@@ -19,6 +19,20 @@ export class GraficaComponent implements OnInit {
 
 }
 
-//  Este componente genera graficas
-//  Dependencias:
+//  Este componente fue sacado de:
 //    ng2-charts - https://valor-software.com/ng2-charts/
+
+//  Este componente genera graficas
+
+// Uso:
+//   <app-grafica
+//     [title] = "grafico.leyenda"   Nos da el titulo que aparecera en la grafica
+//     [labels] = "grafico.labels"   Son las etiquetas de los datos de las graficas
+//     [data] = "grafico.data"       Datos que se usan en la grafica tienen que estar alineados con las labels
+//     [type] = "grafico.type" >     Tipo de Grafica
+//   </app-grafica>
+
+
+// Dependencias:
+// npm install ng2-charts --save
+// npm install chart.js --save
